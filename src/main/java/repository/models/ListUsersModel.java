@@ -23,4 +23,5 @@ public class ListUsersModel {
 
 	@SerializedName("total_pages")
 	private int totalPages;
+
 }
