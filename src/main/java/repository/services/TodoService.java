@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface TodoService {
     @GET("todos")
-    Call<TodoModel> getTodos();
+    Call<List<TodoModel>> getTodos();
 
     @GET("todos/{id}")
     Call<TodoModel> getTodo(@Path("id") int id);
