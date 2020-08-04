@@ -4,18 +4,19 @@ import com.google.gson.annotations.SerializedName;
 
 public class DataItem{
 
-	@SerializedName("last_name")
-	private String lastName;
+	@SerializedName("createdAt")
+	private String createdAt;
+
+	@SerializedName("task")
+	private String task;
 
 	@SerializedName("id")
 	private int id;
 
-	@SerializedName("avatar")
-	private String avatar;
+	@SerializedName("status")
+	private boolean status;
 
-	@SerializedName("first_name")
-	private String firstName;
+	@SerializedName("updatedAt")
+	private String updatedAt;
 
-	@SerializedName("email")
-	private String email;
 }
